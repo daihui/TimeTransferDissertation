@@ -1,0 +1,53 @@
+%!TEX root =  ../main.tex
+
+\begin{abstract}
+  % 摘要是论文内容的总结概括，应简要说明论文的研究目的、基本研究内容、 研究方法或
+  % 过程、结果和结论，突出论文的创新之处。摘要中不宜使用公式、图表，不引用文献。
+  % 博士论文中文摘要一般800～1000个汉字，硕士论文中文摘要一般600个汉字。英文摘要的
+  % 篇幅参照中文摘要。
+
+  时间（频率）是基本物理量之一，许多物理量与它相关，随着超高精度的冷原子钟以及光钟的发展，
+  时钟稳定度已能达到$10^{-18}$量级。如何将如此高精度的时间频率进行远距离传输和比对即为时频
+  传递所研究的内容。自由空间中的高精度时频传递在精密测量、基础物理、深空探测、地球物理、
+  卫星导航等诸多领域具有非常重要的应用。而相比于传统基于微波技术的时频传递，基于激光的时频传
+  递具有更好的性能。另外随着信息社会的发展，时频网络的安全性也得到了更多的关注和研究。
+  本论文基于墨子号卫星平台开展了激光时频传输的实验研究，为未来基于量子通信
+  网络构建更加安全的时频网络奠定了基础。该研究主要包括以下几个方面：
+
+  1.对异步双向激光时频传递进行了系统性分析，并基于墨子号卫星，首次实验实现了低轨卫星与地面之
+  间的异步双向激光测距及时间比对。论文阐述了该方案的基本原理，
+  并从激光信号及探测、链路、系统标校等方面进行了误差和稳定度的分析。同时针对其中关键器件我们进行了
+  本地测试，例如单光子探测器的时间游走效应测试，时钟性能测试等，并搭建了本地时间比对测试系统。
+  利用墨子号卫星现有资源，在星地之间建立了稳定的双向光学链路，获得了8.3kHz的有效异步应答频率，
+  通过平滑数据处理，最终实现了1.5cm的测距精度，以及45ps的时间比对精度，验证了该方案在星地
+  链路中的可行性。
+
+  2.提出基于卫星共视的激光时频传输方案，该方案有单向链路以及双向链路两种实现方式。单向链路共视
+  系统简单，但需要卫星具有高精度定轨能力；而基于异步双向链路共视的方案，能够有效将该项需求消除，
+  并实现两地更高精度的时频传递。基于墨子号卫星，我们进行了零基线共视时间比对实验，获得了1.1kHz的
+  有效比对频率，实现了25ps的时间比对精度，
+  以及5ps@12.6s的比对稳定度，该实验显示了共视时间比对具备良好的系统性能。另外我们还在德令哈
+  与丽江之间进行了千公里基线的时间比对演示实验。虽然受限于目前卫星配置，无法在两边实现双向链路，
+  但在单向链路的情况下，获得了2.4kHz的有效比对频率，以及15ps的时间比对精度，
+  为未来基于卫星共视的激光时频传递提供了一定参考价值。
+
+  3.讨论了基于量子通信网络建立更安全的时频传输网络的可能性。异步双向激光时频传递能够很好地复用
+  量子通信卫星的资源并内置于量子通信网络之中，结合利用量子密钥分发提供的安全密钥对时频数据进行
+  加密传输，未来能够基于量子通信网络实现一个更加安全的时频网络。
+
+  \keywords{激光；时频传递；测距；双向光学链路；自由空间；安全}
+\end{abstract}
+
+\begin{enabstract}
+  This is a sample document of USTC thesis \LaTeX{} template for bachelor,
+  master and doctor. The template is created by zepinglee and seisman, which
+  orignate from the template created by ywg. The template meets the
+  equirements of USTC theiss writing standards.
+
+  This document will show the usage of basic commands provided by \LaTeX{} and
+  some features provided by the template. For more information, please refer to
+  the template document ustcthesis.pdf.
+
+  \enkeywords{University of Science and Technology of China (USTC); Thesis;
+  \LaTeX{} Template; Bachelor; Master; PhD}
+\end{enabstract}
